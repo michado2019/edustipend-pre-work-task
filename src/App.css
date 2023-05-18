@@ -4,3 +4,8 @@
     height: 100vh;
     padding: 4px;
 }
+.routerSidebar-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
