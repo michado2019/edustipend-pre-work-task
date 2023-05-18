@@ -1,0 +1,34 @@
+.headerContents ul{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 5px;
+    padding: 7px 4px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.header-link_list{
+    list-style: none;
+}
+.header-link{
+    text-decoration: none;
+    margin: 0 5px;
+    background-color: #ffa600;
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #222222;
+}
+#header-link_contact{
+    background-color: #fff;
+}
+#header-link_contact:hover{
+    background-color: #ffa600;
+    transition: all 0.3s;
+}
+#header-link_sign:hover{
+    background-color: #fff;
+    transition: all 0.3s;
+}
