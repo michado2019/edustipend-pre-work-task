@@ -1,7 +1,7 @@
 .App{
     background-color: #d4d5d5;
     min-height: fit-content;
-    height: 100vh;
+    height: calc(100vh);
     padding: 10px;
 }
 .routerSidebar-div{

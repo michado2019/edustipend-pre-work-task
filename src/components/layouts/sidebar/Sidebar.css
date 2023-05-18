@@ -1,0 +1,14 @@
+.sidebarWrapper{
+    background-color: #706b6b;
+    height: calc(80vh);
+    position: fixed;
+    right: 0;
+    top: 110px;
+    width: 280px;
+    padding: 20px 10px;
+}
+.sidebarContents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
