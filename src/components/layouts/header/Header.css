@@ -32,3 +32,8 @@
     background-color: #fff;
     transition: all 0.3s;
 }
+@media (max-width: 230px) {
+    .headerContents ul{
+        margin-left: 0px;
+    }
+}
