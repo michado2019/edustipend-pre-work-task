@@ -1,0 +1,63 @@
+.smallScreenWrapper {
+    background-color: #706b6b;
+    min-width: 100%;
+    padding: 20px 10px;
+    margin-top: 20px;
+    animation: sidebarContent 0.5s;
+    height: 83vh;
+    min-height: fit-content;
+    position: absolute;
+  }
+  @keyframes sidebarContent {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .smallScreenContents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .smallScreenTitle {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .smallScreenContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 12px 7px;
+    width: 100%;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  .smallScreenMusic {
+    color: #706b6b;
+  }
+  .smallScreenAdd-icon {
+    color: #000 !important;
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .smallScreenBtn {
+    text-decoration: none;
+    margin: 10px 5px;
+    margin-bottom: 0;
+    background-color: #ffa600;
+    padding: 7px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #222222;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .smallScreenBtn:hover {
+    background-color: #fff;
+  }
