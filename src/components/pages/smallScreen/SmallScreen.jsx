@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./SmallScreen.css";
 import { projectData } from "../../projectData/projectData";
 import { Add } from "@mui/icons-material";
-const SmallScreen = () => {
+const SmallScreen = ({ toggle, setToggle }) => {
   const [page, setPage] = useState(1);
   const perPage = 5;
   const pages = Math.ceil(projectData.length / perPage);
@@ -10,12 +10,20 @@ const SmallScreen = () => {
   return (
     <div
       className="smallScreenWrapper"
+      style={{
+        marginLeft: toggle ? "-10px" : "-1000px",
+        transition: "all 0.5s",
+      }}
     >
       <div className="smallScreenContents">
         <h2 className="smallScreenTitle">Trending songs</h2>
         {projectData.slice(skip, skip + perPage).map((each) => {
           return (
-            <div className="smallScreenContent" key={each.id}>
+            <div
+              className="smallScreenContent"
+              key={each.id}
+              onClick={() => setToggle((prev) => !prev)}
+            >
               <p className="smallScreenMusic">
                 {each.music} by {each.singer}
               </p>

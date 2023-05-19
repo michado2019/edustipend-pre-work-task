@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="App">
       <Header toggle={toggle} setToggle={setToggle} />
-      <SmallScreen />
+      <SmallScreen toggle={toggle} setToggle={setToggle}/>
       <div className='routerSidebar-div'>
       <AppRouter />
-      <Sidebar toggle={toggle}/>
+      <Sidebar />
       </div>
     </div>
   );

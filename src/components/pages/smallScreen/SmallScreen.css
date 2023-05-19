@@ -7,6 +7,7 @@
     height: 83vh;
     min-height: fit-content;
     position: absolute;
+    margin-left: -10px;
   }
   @keyframes sidebarContent {
     0% {
@@ -60,4 +61,9 @@
   }
   .smallScreenBtn:hover {
     background-color: #fff;
+  }
+  @media (min-width: 641px) {
+    .smallScreenWrapper {
+        display: none;
+      }
   }
