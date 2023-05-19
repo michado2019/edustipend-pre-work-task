@@ -1,0 +1,32 @@
+.homeContents{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 52px;
+    height: 87vh;
+    margin-left: 70px;
+}
+.homeTitle{
+    color: #222222;
+    font-size: 38px;
+}
+.homeDetails{
+    color: #4b4b4b;
+    font-size: 28px;
+}
+.homeBtn {
+    text-decoration: none;
+    margin: 15px 5px;
+    margin-bottom: 0;
+    background-color: #ffa600;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #222222;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .homeBtn:hover {
+    background-color: #fff;
+  }

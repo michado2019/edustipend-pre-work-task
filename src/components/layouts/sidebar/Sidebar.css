@@ -1,13 +1,10 @@
 .sidebarWrapper {
   background-color: #706b6b;
-  height: calc(80vh);
-  position: fixed;
-  right: 0;
-  top: 110px;
-  width: 280px;
+  min-width: 280px;
   padding: 20px 10px;
-  margin-right: 10px;
+  margin-top: 30px;
   animation: sidebarContent 0.5s;
+  height: 83vh;
 }
 @keyframes sidebarContent {
   0% {
@@ -26,6 +23,7 @@
 .sidebarTitle {
   color: #000;
   font-size: 20px;
+  margin-bottom: 15px;
 }
 .sidebarContent {
   display: flex;
@@ -36,7 +34,7 @@
   padding: 12px 7px;
   width: 100%;
   cursor: pointer;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 .sidebarMusic {
   color: #706b6b;
