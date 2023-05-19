@@ -37,6 +37,22 @@
     background-color: #fff;
     transition: all 0.3s;
 }
+.menu{
+    display: none !important;
+    width: 35px !important;
+    height: 35px !important;
+    color: #ffa600 !important;
+}
+@media (max-width: 768px) {
+    .headerContents ul{
+        margin-left: 0;
+    }
+}
+@media (max-width: 480px) {
+    .menu{
+        display: block !important;
+    }
+}
 @media (max-width: 230px) {
     .headerContents ul{
         margin-left: 0px;

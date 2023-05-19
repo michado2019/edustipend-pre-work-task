@@ -59,3 +59,18 @@
 .sidebarBtn:hover {
   background-color: #fff;
 }
+@media (max-width: 768px) {
+    .sidebarWrapper{
+        min-width: 180px;
+    }
+}
+@media (min-width: 769px) {
+    .sidebarWrapper{
+    display: "block";
+    }
+}
+@media (max-width:480px) {
+    .sidebarWrapper{
+        display: none;
+    }
+}
