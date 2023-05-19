@@ -48,12 +48,14 @@
         margin-left: 0;
     }
 }
+@media (max-width: 640px) {
+    .menu{
+        display: block !important;
+    }
+}
 @media (max-width: 480px) {
     .headerContents ul{
         justify-content: space-evenly;
-    }
-    .menu{
-        display: block !important;
     }
 }
 @media (max-width: 230px) {
