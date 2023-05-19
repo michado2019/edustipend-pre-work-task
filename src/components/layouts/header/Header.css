@@ -42,6 +42,7 @@
     width: 35px !important;
     height: 35px !important;
     color: #ffa600 !important;
+    cursor: pointer;
 }
 @media (max-width: 768px) {
     .headerContents ul{
