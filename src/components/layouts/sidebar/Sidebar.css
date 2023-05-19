@@ -7,6 +7,15 @@
   width: 280px;
   padding: 20px 10px;
   margin-right: 10px;
+  animation: sidebarContent 0.5s;
+}
+@keyframes sidebarContent {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .sidebarContents {
   display: flex;
@@ -14,9 +23,9 @@
   align-items: center;
   justify-content: center;
 }
-.sidebarTitle{
-    color: #000;
-    font-size: 20px;
+.sidebarTitle {
+  color: #000;
+  font-size: 20px;
 }
 .sidebarContent {
   display: flex;
